@@ -8,3 +8,7 @@ const footer="Footer added in out website";
 console.log(footer);
 
 console.log("LAtest update");
+
+//I am fixing some BUG
+
+console.log("Bug fixed");
