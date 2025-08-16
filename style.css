@@ -1,0 +1,70 @@
+/* Reset & body */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom, #071021, #081226, #08101b);
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+header.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  align-items: center;
+  background: rgba(0,0,0,0.3);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header h1 { font-size: 1.8rem; font-weight: bold; }
+header p { color: #94a3b8; font-size: 0.9rem; }
+header nav a { margin-left: 1rem; color: #94a3b8; }
+header nav a:hover { color: #fff; }
+.resume-btn { padding: 0.5rem 1rem; background: linear-gradient(to right, #6366f1, #06b6d4); color: black; border-radius: 0.5rem; font-weight: bold; }
+
+/* Hero */
+.hero { display: flex; flex-wrap: wrap; gap: 2rem; padding: 2rem 3rem; border: 1px solid #334155; border-radius: 1rem; margin: 2rem; background: rgba(7,18,38,0.4); }
+.hero .intro { flex: 2; }
+.hero .intro h2 { font-size: 2rem; font-weight: bold; }
+.hero .badges span { display: inline-block; margin-right: 0.5rem; margin-top: 0.5rem; background: rgba(30,41,59,0.5); padding: 0.3rem 0.7rem; border-radius: 0.5rem; font-size: 0.85rem; }
+.hero-buttons a { margin-right: 1rem; padding: 0.5rem 1rem; border-radius: 0.5rem; font-weight: bold; }
+.btn-primary { background: linear-gradient(to right, #6366f1, #06b6d4); color: black; }
+.btn-secondary { border: 1px solid #334155; color: #e0e0e0; }
+
+/* Hero info */
+.hero-info { flex: 1; display: flex; flex-direction: column; align-items: center; }
+.avatar { width: 8rem; height: 8rem; border-radius: 1rem; display: flex; justify-content: center; align-items: center; font-size: 2.5rem; font-weight: bold; background: linear-gradient(to bottom right, #6366f1, #06b6d4); }
+.details p { margin: 0.5rem 0; font-size: 0.9rem; color: #94a3b8; }
+
+/* Skills */
+.skills { margin: 2rem 3rem; }
+.skill-bar { margin: 1rem 0; }
+.skill-bar span { display: block; margin-bottom: 0.3rem; font-size: 0.9rem; }
+.bar { height: 0.8rem; background: #1e293b; border-radius: 0.4rem; overflow: hidden; }
+.fill { height: 100%; border-radius: 0.4rem; background: linear-gradient(90deg,#7c3aed,#06b6d4); }
+
+/* Projects */
+.projects { display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 1rem; margin: 1rem 3rem; }
+.project-card { padding: 1rem; border: 1px solid #334155; border-radius: 1rem; background: rgba(4,16,34,0.3); }
+.project-card .tech { font-size: 0.85rem; color: #94a3b8; margin-top: 0.5rem; }
+.project-links a { margin-right: 0.5rem; padding: 0.3rem 0.6rem; background: rgba(30,41,59,0.5); border-radius: 0.4rem; font-size: 0.85rem; }
+
+/* Coding Profiles */
+.coding-profiles { display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 1rem; margin: 1rem 3rem; }
+.profile-card { padding: 1rem; border: 1px solid #334155; border-radius: 1rem; background: rgba(4,18,34,0.3); }
+
+/* About */
+#about { margin: 2rem 3rem; }
+#about h3, #about h4 { color: #fff; }
+#about ul li { margin-bottom: 0.5rem; }
+
+/* Footer */
+footer { text-align: center; margin: 2rem; color: #64748b; }
