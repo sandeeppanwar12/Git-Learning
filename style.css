@@ -68,3 +68,9 @@ header nav a:hover { color: #fff; }
 
 /* Footer */
 footer { text-align: center; margin: 2rem; color: #64748b; }
+
+.html,.typeScript{
+   display: flex;
+   flex-wrap: wrap;
+    width: 80%;
+}
